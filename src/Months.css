@@ -1,0 +1,26 @@
+.Container{
+    width:600px;
+    min-height:500px;
+    border:1px solid #000;
+    margin:20px auto;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    align-items:center;
+    box-shadow: 20px -10px teal;
+}
+.ulStyle {
+    display:inline-block;
+   
+}
+.liStyle{
+    margin:10px auto;
+    border:1px solid #000;
+    border-radius:10px;
+    width:200px;
+    height:25px;
+    list-style-type: none;
+    cursor:pointer;
+    box-shadow:5px 5px 2px 1px rgba(0, 0, 255, .2);
+}
+
